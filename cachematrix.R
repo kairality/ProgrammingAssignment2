@@ -7,7 +7,8 @@
 ## instance of a "cache matrix class" without formal definition.  When
 ## we call "cacheSolve" on a cache matrix, we do not re-calculate the inverse
 ## if the inverse has already been calculated and the cache matrix has not
-## been altered via the "set" method.
+## been altered via the "set" method.  This program is based on rdpeng's 
+## Cache vector script.
 
 ## Create a single "cache matrix", returns a list of functions that define
 ## our matrix object.
